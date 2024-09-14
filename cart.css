@@ -1,0 +1,96 @@
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px rgb(232, 226, 226) solid;
+
+
+    .head1{
+        margin: 10px 20px;
+    }
+}
+#a,#b,#c,#d,#e,#f,#g,#h{
+    height: 350px;
+    width: 210px;
+    border: 1px rgb(240, 235, 235) solid;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 15px;
+
+    .img1{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .des{
+        color: rgb(150, 154, 158);
+        font-size: 18px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .rupee{
+        font-size: 23px;
+        margin-left: 15px;
+        margin-top: 10px;
+
+        .end{
+            color: rgb(150, 154, 158);
+            font-size: 15px;
+            height: 25px;
+            width: 50px;
+            margin-top: -20px;
+            margin-left: 49px;
+        }
+        
+    }
+
+    .free{
+        height: 20px;
+        width: 78px;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-radius: 25px;
+        font-size: 12px;
+        padding-top: 4px;
+        padding-left: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(234, 249, 249, 0.897);
+    }
+
+    .rating{
+        height: 22px;
+        width: 38px;
+        margin-left: 15px;
+        margin-top: 5px;
+        border-radius: 25px;
+        padding-left: 15px;
+        padding-top: 5px;
+        color: white;
+        background-color: rgb(65, 198, 65);
+
+        .end{
+            color: rgb(150, 154, 158);
+            font-size: 15px;
+            height: 25px;
+            width: 80px;
+            margin-top: -14px;
+            margin-left: 45px;
+        }
+
+    }
+}
+#a{grid-area: a1;}
+#b{grid-area: b1;}
+#c{grid-area: c1;}
+#d{grid-area: d1;}
+#e{grid-area: e1;}
+#f{grid-area: f1;}
+#g{grid-area: g1;}
+#h{grid-area: h1;}
+#maindiv{
+    display: grid;
+    grid-template-areas: "a1 b1 c1 d1" "e1 f1 g1 h1";
+}
